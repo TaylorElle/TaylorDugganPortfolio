@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
-  background-color: #ddbea9;
+  background-color: #ffe8d6;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
 .logo {
   font-family: American Typewriter, serif;
   font-size: 68px;
-  color: #b7b7a4;
+  color: #ddbea9;
   text-align: center;
   margin: 0;
   padding: 0 20px 0 0;
@@ -82,7 +82,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #b7b7a4;
+  color: #ffe8d6;
   text-decoration: none;
   padding: 0 20px 0 0;
   font-family: Verdana, sans-serif;
@@ -110,17 +110,24 @@ a:active {
 /* Groups and Items  */
 
 section.mediumddark-background {
-  background-color: #cb997e;
+  background-color: #ddb3a9;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 0px;
 }
 
 main img {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 img.image-enhanced {
   border-radius: 25px;
+}
+
+.group .imgsizing {
+  height: auto;
+  width: 90vw;
 }
 
 .group {
@@ -167,6 +174,11 @@ img.image-enhanced {
 
   .group {
     flex-direction: row;
+  }
+
+  .group .imgsizing {
+    height: auto;
+    width: 25vw;
   }
 }
 
