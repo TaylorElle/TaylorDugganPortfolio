@@ -130,6 +130,11 @@ img.image-enhanced {
   width: 90vw;
 }
 
+.centerimg {
+  display: flex;
+  justify-content: center;
+}
+
 .group {
   display: flex;
   flex-direction: column;
